@@ -1,0 +1,15 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/Product_API_Requests.postman_collection.json"
+  },
+  "author": "Bhargavi",
+  "dependencies": {
+    "newman": "^5.2.2"
+  }
+}
