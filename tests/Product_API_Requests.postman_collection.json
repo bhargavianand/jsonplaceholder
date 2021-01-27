@@ -59,7 +59,7 @@
 							"});",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
-							"});
+							"});"
 
 						],
 						"type": "text/javascript"
