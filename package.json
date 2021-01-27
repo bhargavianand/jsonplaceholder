@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "ProjectPostman",
   "version": "1.0.0",
   "description": "project for storing postman tests edited on 27-01",
   "directories": {
@@ -8,7 +8,7 @@
   "scripts": {
     "api-tests-production": "newman run tests/Product_API_Requests.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
-  "author": "Bhargavi",
+  "author": "Bhar",
   "dependencies": {
     "newman": "^5.2.2"
   }
